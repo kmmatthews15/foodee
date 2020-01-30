@@ -25,7 +25,7 @@ module.exports = function (sequelize, DataTypes) {
    });
    
    // isEmail validation for the user email 
-   User.hook("beforeValidate", function (user) {
+   User.beforeCreate(user => {
       if (user.email.indexOf('@gmail.com') != -1) {
          return sequelize.Promise.resolve(user);
       }
@@ -43,7 +43,7 @@ module.exports = function (sequelize, DataTypes) {
    };
 
    // pre table creation hook to hash the user password 
-   User.hook("beforeCreate", function (user) {
+   User.beforeCreate(user => {
       user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(12), null);
    });
 

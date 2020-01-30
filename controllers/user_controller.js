@@ -32,6 +32,42 @@ module.exports = function(app) {
 
    // returns the user profile dashboard 
    app.get("/profile", isAuth.isAuthenticated, function(req, res) {
-      if 
+      db.User.findOne({
+         where: {
+            email: req.user.email
+         }
+      }).then(function(dbUser) {
+         const hbsObj = {
+            user: dbUser
+         };
+         res.render("userProfile", hbsObj);
+      });
    });
-}
+
+   // update user profile 
+   app.put("/userProfileUpdate", function(req, res) {
+      db.User.update(
+         {
+            name: req.body.name, 
+            email: req.body.email
+         },
+         {
+            where: {
+               id: req.user.id
+            }
+         }
+      );
+   });
+
+   app.get("/api/user_data", function(req, res) {
+      if(!req.user) {
+         res.join({});
+      } else {
+         res.json({
+            email: req.user.email, 
+            id: req.user.id, 
+            name: req.user.name
+         });
+      }
+   });
+};
