@@ -33,6 +33,14 @@ module.exports = function (app) {
       res.render('about');
    });
 
+   app.get('./recipebook', function (req, res) {
+      res.render('recipebook');
+   });
+
+   app.get('./searchrecipe', function (req, res) {
+      res.render('searchrecipe');
+   })
+
    app.get('/userProfileUpdate', function (req, res) {
       res.render('userProfileUpdate');
    });

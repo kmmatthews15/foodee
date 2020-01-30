@@ -43,7 +43,7 @@ app.set("view engine", "handlebars");
 
 // router 
 require("./controllers/user_controller")(app);
-// require("./controllers/food_controller")(app);
+require("./controllers/foodie_controller")(app);
 require("./routes/html_routes")(app);
 
 // sequelize db sync + app listen
