@@ -1,0 +1,9 @@
+[{
+   "model": "User", 
+   "data": {
+      "name": "Sara Conner",
+      "email": "sconner@gmail.com",
+      "password": "sc1234",
+      "isRecipeOwner": true
+   }
+}]
