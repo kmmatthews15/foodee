@@ -1,0 +1,176 @@
+body {
+   font-family: 'Abril Fatface', cursive;
+   background-image: url("../images/priscilla-du-preez-iS7qYzIhrmU-unsplash\ \(2\).jpg");
+   color: white;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+   width: 1762px;
+}
+
+h1 {
+   position: absolute;
+   width: 242px;
+   height: 56px;
+   left: 1320px;
+   top: 0px;
+}
+
+.eggpic {
+   position: absolute;
+   width: 471px;
+   height: 920px;
+   left: 103px;
+   top: 0px;
+   background: url("../images/ezgif.com-resize.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.title1 {
+   position: absolute;
+   width: 693px;
+   height: 194px;
+   left: 715px;
+   top: 196px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 144px;
+   line-height: 194px;
+}
+
+.title2 {
+   position: absolute;
+   width: 852px;
+   height: 228px;
+   left: 763px;
+   top: 348px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 144px;
+   line-height: 194px;
+}
+
+.line1 {
+   position: absolute;
+   width: 579px;
+   height: 0px;
+   left: 811px;
+   top: 390px;
+   border: 5px solid #B4990D;
+   transform: rotate(0.01deg);
+}
+
+.line2 {
+   position: absolute;
+   width: 508px;
+   height: 0px;
+   left: 900px;
+   top: 525px;
+   border: 5px solid #B4990D;
+}
+
+#getstarted {
+   position: absolute;
+   width: 450px;
+   height: 114px;
+   left: 905px;
+   top: 564px;
+}
+
+.about {
+   position: absolute;
+   width: 430px;
+   height: 96px;
+   left: 20px;
+   top: 9px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: right;
+   letter-spacing: 0.085em;
+}
+
+.line3 {
+position: absolute;
+width: 680px;
+height: 0px;
+top: 350px;
+border: 20px solid #B4990D;
+transform: rotate(89.88deg);
+}
+
+.line5 {
+position: absolute;
+width: 243px;
+height: 0px;
+left: 118px;
+top: 700px;
+border: 20px solid #B4990D;
+}
+
+.line6 {
+position: absolute;
+width: 680.07px;
+height: 0px;
+left: -202px;
+top: 350px;
+border: 20px solid #B4990D;
+transform: rotate(89.88deg);
+}
+
+.line7 {
+position: absolute;
+width: 243px;
+height: 0px;
+left: 117px;
+top: 30px;
+border: 20px solid #B4990D;
+transform: rotate(0.42deg);
+}
+
+.triangle {
+position: absolute;
+width: 999px;
+height: 1020px;
+left: -210px;
+top: -240px;
+background: #284F28;
+transform: rotate(-75.57deg);
+}
+
+.started {
+position: absolute;
+width: 297px;
+height: 57px;
+left: 1006px;
+top: 715px;
+}
+
+.btn {
+position: absolute;
+width: 215px;
+height: 52px;
+left: 41px;
+top: 3px;
+background: #B4990D;
+border-radius: 20px;
+}
+
+.buttonfont {
+position: absolute;
+width: 162px;
+height: 32px;
+left: 28px;
+top: 10px;
+font-family: Abril Fatface;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.navbar {
+   background-image: url("../images/priscilla-du-preez-iS7qYzIhrmU-unsplash\ \(2\).jpg");
+}
